@@ -1,13 +1,15 @@
 <?php
 $config['server'] = array(
     //监听的HOST
-    'host'   => '0.0.0.0',
+    'host' => '0.0.0.0',
     //监听的端口
-    'port'   => '9501',
+    'port' => '9503',
     //WebSocket的URL地址，供浏览器使用的
-    'url'    => 'ws://im.server.localhost:9501',
-    //用于Comet跨域，必须设置为html所在的URL
-    'origin' => 'http://im.server.localhost:80',
+    'url' => 'ws://im.swoole.com:9503',
+    //用于Comet跨域，必须设置为web页面的URL
+    //比如：你的网页项目根目录（此项目为/path/to/ebiomall-im/webroot）
+    //配置的网址为http://im.swoole.com:8888
+    'origin' => 'http://im.swoole.com:8888',
 );
 
 $config['swoole'] = array(

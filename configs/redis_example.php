@@ -1,5 +1,5 @@
 <?php
 $redis['master'] = array(
-    'host' => 'docker.for.mac.localhost',
+    'host' => '127.0.0.1',
 );
 return $redis;
