@@ -6,6 +6,8 @@
 /client/uploads/
 /framework
 /webroot/uploads/
+
 /configs/db.php
 /configs/redis.php
 /configs/webim.php
+.DS_Store
