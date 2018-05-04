@@ -7,7 +7,7 @@ $config['server'] = array(
     //WebSocket的URL地址，供浏览器使用的
     'url' => 'ws://im.swoole.com:9503',
     //用于Comet跨域，必须设置为web页面的URL
-    //比如：你的网页项目根目录（此项目为/path/to/ebiomall-im/webroot）
+    //比如：你的网页项目根目录（此项目为/path/to/genim/webroot）
     //配置的网址为http://im.swoole.com:8888
     'origin' => 'http://im.swoole.com:8888',
 );
